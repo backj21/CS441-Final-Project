@@ -55,16 +55,6 @@ The project utilizes flight reporting data (e.g., `T_ONTIME_REPORTING.csv`), fil
     * Gradient boosting classifier with extensive hyperparameter search (comparing low complexity, optimal balance, high complexity, etc.).
     * **Performance:** Weighted F1-Score of ~0.70 (High Complexity model).
 
-## 🚀 Usage
-
-1.  **Environment:** The notebooks are designed to run in Google Colab or a local Jupyter environment.
-2.  **Dependencies:** Ensure the following libraries are installed:
-    ```bash
-    pip install pandas numpy scikit-learn xgboost seaborn matplotlib category_encoders
-    ```
-3.  **Data Path:** Update the file paths in the notebooks (e.g., `/content/drive/MyDrive/...`) to point to the location of your dataset.
-4.  **Execution:** Run the notebooks in the respective folders to train the models and view evaluation metrics (Confusion Matrices, ROC Curves, Classification Reports).
-
 ## 📈 Results Summary
 
 | Model | Accuracy / F1-Score | Key Findings |
